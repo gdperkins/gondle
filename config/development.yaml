@@ -1,0 +1,19 @@
+server:
+ port: :8080
+ environment: development
+ enabled: true
+
+github:
+ secret: mangos
+ hookpath: /deploy
+
+app:
+ path: /var/wwww/tinyapis
+ watchbranches:
+  - master
+
+notfify:
+ enabled: true
+ recipients:
+  - grantdperkins@gmail.com
+  - robertgremillion@gmail.com
