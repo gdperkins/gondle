@@ -6,7 +6,7 @@ import (
 
 	"os"
 
-	"github.com/gondle/config"
+	"github.com/gdperkins/gondle/config"
 )
 
 func main() {
